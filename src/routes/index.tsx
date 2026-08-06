@@ -52,7 +52,7 @@ function Index() {
 
 function Hero() {
   return (
-    <section className="mx-auto max-w-5xl px-5 pb-16 pt-8 sm:pt-10">
+    <section className="mx-auto max-w-[1440px] px-5 pb-16 pt-8 sm:pt-10">
       <header className="mb-14">
         <img src={logo.url} alt="Plano Vida" className="h-10 w-auto sm:h-12" />
       </header>
@@ -112,7 +112,7 @@ const steps = [
 
 function Steps() {
   return (
-    <section className="mx-auto max-w-5xl px-5 py-16">
+    <section className="mx-auto max-w-[1440px] px-5 py-16">
       <h2 className="text-2xl text-deep sm:text-3xl">Como funciona</h2>
 
       <ol className="mt-9 grid gap-4 md:grid-cols-3">
@@ -155,7 +155,7 @@ const reasons = [
 
 function WhyUs() {
   return (
-    <section className="mx-auto max-w-5xl px-5 py-16">
+    <section className="mx-auto max-w-[1440px] px-5 py-16">
       <h2 className="max-w-2xl text-2xl text-deep sm:text-3xl">
         Referência na região há mais de <span className="text-accent">25 anos</span>
       </h2>
@@ -179,7 +179,7 @@ const cities = ["Cachoeiro", "Marataízes", "e região"];
 
 function Trust() {
   return (
-    <section className="mx-auto max-w-5xl px-5 py-16">
+    <section className="mx-auto max-w-[1440px] px-5 py-16">
       <div className="grid gap-4 md:grid-cols-2">
         <div className="relative overflow-hidden rounded-md bg-deep p-7 text-deep-foreground">
           <BrandMark corner="bl" />
@@ -214,7 +214,7 @@ function Trust() {
 
 function PlanCta() {
   return (
-    <section className="mx-auto max-w-5xl px-5 pb-16">
+    <section className="mx-auto max-w-[1440px] px-5 pb-16">
       <div className="relative overflow-hidden rounded-md bg-deep px-7 py-9 text-deep-foreground">
         <BrandMark corner="tr" />
         <div className="relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
@@ -242,7 +242,7 @@ function PlanCta() {
 
 function Footer() {
   return (
-    <footer className="mx-auto max-w-5xl border-t border-border px-5 py-8">
+    <footer className="mx-auto max-w-[1440px] border-t border-border px-5 py-8">
       <img src={logo.url} alt="Plano Vida" className="h-9 w-auto" />
     </footer>
   );
