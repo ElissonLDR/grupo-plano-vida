@@ -52,7 +52,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Estamos com você, 24 horas, em Cachoeiro, Marataízes e região. Conheça o Plano Vida a partir de R$ 42,50/mês.",
+          "Estamos com você, 24 horas, em Cachoeiro, Marataízes e região. Referência há mais de duas décadas cuidando de famílias no sul do Espírito Santo.",
       },
     ],
   }),

@@ -80,6 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Plano Vida" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { title: "Plano Vida | Atendimento Funerário 24h em Cachoeiro e Marataízes" },
+      { property: "og:title", content: "Plano Vida | Atendimento Funerário 24h em Cachoeiro e Marataízes" },
+      { name: "twitter:title", content: "Plano Vida | Atendimento Funerário 24h em Cachoeiro e Marataízes" },
+      { name: "description", content: "Estamos com você, 24 horas, em Cachoeiro, Marataízes e região. Referência há mais de duas décadas cuidando de famílias no sul do Espírito Santo." },
+      { property: "og:description", content: "Estamos com você, 24 horas, em Cachoeiro, Marataízes e região. Referência há mais de duas décadas cuidando de famílias no sul do Espírito Santo." },
+      { name: "twitter:description", content: "Estamos com você, 24 horas, em Cachoeiro, Marataízes e região. Referência há mais de duas décadas cuidando de famílias no sul do Espírito Santo." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b226c59d-bac3-4cab-a0ae-120678ff4a5f/id-preview-22d7d0e1--34b8ca0b-53d0-4fa7-bf5d-4985817cb4f5.lovable.app-1786032808751.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b226c59d-bac3-4cab-a0ae-120678ff4a5f/id-preview-22d7d0e1--34b8ca0b-53d0-4fa7-bf5d-4985817cb4f5.lovable.app-1786032808751.png" },
     ],
     links: [
       {
