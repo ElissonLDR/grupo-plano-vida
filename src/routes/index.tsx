@@ -215,9 +215,9 @@ function Trust() {
 function PlanCta() {
   return (
     <section className="mx-auto max-w-[1440px] px-5 pb-16">
-      <div className="relative overflow-hidden rounded-md bg-deep px-7 py-9 text-deep-foreground">
+      <div className="relative flex min-h-[650px] flex-col items-center justify-center overflow-hidden rounded-md bg-deep px-7 py-9 text-deep-foreground">
         <BrandMark corner="tr" />
-        <div className="relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+        <div className="relative flex w-full flex-col items-center justify-between gap-6 md:flex-row md:items-center">
           <p className="max-w-2xl text-base text-deep-foreground/85">
             <strong className="font-semibold text-deep-foreground">
               Evite que sua família precise decidir tudo sob pressão.
@@ -239,6 +239,7 @@ function PlanCta() {
     </section>
   );
 }
+
 
 function Footer() {
   return (
